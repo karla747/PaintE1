@@ -21,10 +21,13 @@ def square(start, end):
 
     end_fill()
 
-def circle(start, end):
+def drawcircle(start, end):
     "Draw circle from start to end."
-    pass  # TODO
-
+    up()
+    goto(start.x, start.y)
+    down()
+    circle(54,360)
+    
 def drawrectangle(start, end):
     "Draw rectangle from start to end."
     up()
